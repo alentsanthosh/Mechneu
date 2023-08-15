@@ -8,7 +8,8 @@ mongoose.connect("mongodb://0.0.0.0:27017/mechneu")
 })
 
 
-const newSchema=new mongoose.Schema({
+const  mSchema = new mongoose.Schema({
+
     email:{
         type:String,
         required:true
@@ -16,10 +17,15 @@ const newSchema=new mongoose.Schema({
     password:{
         type:String,
         required:true
+    },
+    location:{
+        type:String,
+        required:true
     }
-});
+    
+  }
 
 
-const collection = mongoose.model("collection",newSchema);
-module.exports= collection
-
+);
+const mechdatas = mongoose.model("mechdatas",mSchema)
+module.exports= mechdatas

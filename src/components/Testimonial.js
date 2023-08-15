@@ -9,15 +9,14 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+       A testimonial is a third-party statement that comments on how good someone or something is. By 
+strategically placing website testimonials on a dedicated ‘Testimonials’ page,
         </p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+  This website is completely developed by Alen T Santhosh. All copyrigts belongs to him.
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />

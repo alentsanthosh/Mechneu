@@ -7,18 +7,18 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Pick deals",
+      text: "The content of a website includes the text, images, sounds, videos, and animations that users experience.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Choose your deals",
+      text: "Choose your deals and grab discounts ",
     },
     {
       image: DeliveryMeals,
       title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Stunning fast delivery services for spare sparts",
     },
   ];
   return (

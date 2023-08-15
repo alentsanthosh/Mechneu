@@ -16,11 +16,18 @@ form{
 }
 .login1{
 text-align: center;
-color: rgb(30, 238, 169);
+color: rgb(226, 186, 40);
 }
 .login2{
     font-weight: lighter;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     font-size: x-small;
+}
+.login3{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 11, 11);
+    font-size: x-small;
+    
 }

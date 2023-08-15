@@ -19,12 +19,13 @@ const About = () => {
 
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        The About page is where site users go to learn more about the site they’re on. If you want to convert 
+visitors to users, capture opportunities to work with people, and give your regular users a deeper 
+appreciation of what your site does
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        The About page is the section of a website where people go to find out about the website they’re on. 
+Readers will visit this section for many reasons and with various questions they want answered,
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>

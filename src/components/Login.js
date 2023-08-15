@@ -23,7 +23,7 @@ function Login() {
                 if(res.data=="exist"){
                     history("/home",{state:{id:email}})
                 }
-                else if(res.data=="notexist"){
+                else if(res.data==="notexist"){
                     alert("User have not sign up")
                 }
             })
@@ -61,6 +61,8 @@ function Login() {
             <br />
 
             <Link to="/signup" className='login2'>Create account</Link>
+            <br/>
+            <Link to="/mlogin" className='login3'>mlogin</Link>
 </div>
 </div>
         
